@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+.active {
+			background-color: #800020;
+		}
+		.footer {
+			position: -webkit-sticky; /* Chrome*/
+			position: fixed;
+			bottom: 0;
+			background-color:rgba(255,255,255,0);
+			color: #d9d9d9;
+			text-align: left;
+			text-decoration:overline;
+			font-size:15px;
+			font-family:"Tangerine";	
+			
+			
+		}	
+		h1 {font-family:"Simonetta";
+			color:#e6a61e;
+			font-size: 60px;
+			padding: 40px;
+			margin: auto;
+			text-align: center;
+			
+		}	
+		div {font-family:"Simonetta";
+			 color:white;
+			 font-size:25px;
+			 background-color: rgba(255,255,255,0);
+			 max-width: 300px;
+			 padding: 25px;
+			 margin: auto;
+			 text-align:justify;
+			 word-wrap: break-word;
+			 <!--text-align:left;-->
+		}	 
+		.hometable {margin:auto;
+			 width:100%;
+			 padding:5px;
+			 border-radius:10px;
+			 border:3px solid #e6a61e;
+			 background-color: rgba(255,255,255,0.5);
+			 
+		}	
+		.texthome {color:#800020;
+			 font-family:"Simonetta";
+			 font-size:20px;
+			 word-wrap: break-word;
+			 text-align:justify;
+		
+		
+			
+		}	
+		.texttitlu {font-family:"Simonetta";
+			font-size:25px;
+			color:white;
+			text-align:top;
+			text-decoration:underline;
+		}
+		.textexpl {font-family:"Simonetta";
+			font-size:20px;
+			color:#800020;
+			text-align:justify;
+			word-wrap: break-word;
+		}
+		.divhref {font-family:"Simonetta";
+			font-size:20px;
+			color:#e6a61e;
+			text-decoration:none;
+		}
+		* {box-sizing: border-box}
+		body {font-family: Verdana, sans-serif; margin:0}
+			.mySlides {display: none}
+			img {vertical-align: middle;}
+
+		/* Slideshow container */
+		.slideshow-container {
+			max-width: 300px;
+			position: relative;
+			align:right;
+			margin-right:auto;
+		}
+
+
+
+
+
+		/* Fading animation */
+		.fade {
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+		}
+
+		@keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+		}
+
+

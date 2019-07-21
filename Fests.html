@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fests</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Simonetta:900i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+	<style>
+		body {background-image: url("pics/background.jpg");
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		}
+		h1 {font-family:"Simonetta";
+			color:#e6a61e;
+			font-size: 60px;
+			padding: 40px;
+			margin: auto;
+			text-align: center;
+			padding:50px;
+		}	
+		ul {
+			position: -webkit-sticky; /* Chrome */
+			position: fixed;
+			top:0;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: rgba(255,255,255,0);
+			font-family:"Simonetta";
+			font-size:30px;
+			font-style:normal;
+		}
+
+		li {
+			float: left;
+			border-right:1px solid white;
+		}
+
+		li:last-child {
+		   border-right: none;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		li a:hover:not(.active) {
+			background-color: #800020;
+		}
+		.active {
+			background-color: #800020;
+		}
+		.footer {
+			position: -webkit-sticky; /* Chrome*/
+			position: fixed;
+			bottom: 0;
+			background-color:rgba(255,255,255,0);
+			color: #d9d9d9;
+			text-align: left;
+			text-decoration:overline;
+			font-size:15px;
+			font-family:"Tangerine";	
+			bottom:0px;
+		}	
+		table {max-width:200%;
+
+		}	
+		td {border-color::#e6a61e;
+			border:3px solid #e6a61e;
+			border-radius:10px;
+			padding:5px;
+			background-color:rgba(255,255,255,0.5);
+			
+		}	
+		.texttitlu {font-family:"Simonetta";
+			font-size:25px;
+			color:white;
+			text-align:top;
+			text-decoration:underline;
+			padding-top: 0;
+		}
+		.textexpl {font-family:"Simonetta";
+			font-size:20px;
+			color:#800020;
+			text-align:justify;
+			word-wrap: break-word;
+			margin-left: auto;
+		}
+		.divhref {font-family:"Simonetta";
+			font-size:20px;
+			color:#e6a61e;
+			text-decoration:none;
+		}
+		* {box-sizing: border-box}
+		body {font-family: Verdana, sans-serif; margin:0}
+			.mySlides {display: none}
+			img {vertical-align: middle;}
+
+		/* Slideshow container */
+		.slideshow-container {
+			width: 150px;
+			height: 150px;
+			position: relative;
+			align:right;
+			margin-right:auto;
+		}
+
+
+
+
+
+		/* Fading animation */
+		.fade {
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+		}
+
+		@keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+		}
+		
+
+	</style>
+</head>
+<body>
+	<ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a class="active" href="Fests.html">Fests</a></li>
+        <li><a href="Artists.html">Artists</a></li>
+        <li><a href="Locations.html">Locations</a></li>
+		<li><a href="Contact.html">Tickets</a></li>
+		
+    </ul>
+	<h1>Fests From All Over</h1>
+	<table>
+		<tr>
+				<td>
+					<div class="slideshow-container">
+
+						<div class="mySlides fade">
+							<img src="pics/fests1.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides fade">
+							<img src="pics/fests12.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides fade">
+							<img src="pics/fests13.jpg" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+							<img src="pics/fests14.jpg" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+							<img src="pics/fests11.jpg" style="width:100%">
+						</div>
+					
+
+					</div>
+					<br>
+
+					<div style="text-align:center">
+						<span class="dot" onclick="currentSlide(1)"></span> 
+						<span class="dot" onclick="currentSlide(2)"></span> 
+						<span class="dot" onclick="currentSlide(3)"></span>
+						<span class="dot" onclick="currentSlide(4)"></span>
+						<span class="dot" onclick="currentSlide(5)"></span>		
+					</div>
+				</td>
+				<td class="tdtext"><div class="texttitlu">Waha Festival</div>
+					 <div class="textexpl">A very chill place, in the middle of the forest.People from all over the world come to enjoy the peace that this festival has to offer. Nevertheless if you are looking for more than peace you can also have it all here.</div>
+					 <div class="divhref"><a href="http://wahafestival.ro/">Waha Official</div>
+				</td>
+		</tr>
+				<tr>
+				<td>
+					<div class="slideshow-container">
+
+						<div class="mySlides fade">
+							<img src="pics/fest2.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides fade">
+							<img src="pics/fest21.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides fade">
+							<img src="pics/fests22.jpg" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+							<img src="pics/fests23.jpg" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+							<img src="pics/fests24.jpg" style="width:100%">
+						</div>
+					
+
+					</div>
+					<br>
+
+					<div style="text-align:center">
+						<span class="dot" onclick="currentSlide(1)"></span> 
+						<span class="dot" onclick="currentSlide(2)"></span> 
+						<span class="dot" onclick="currentSlide(3)"></span>
+						<span class="dot" onclick="currentSlide(4)"></span>
+						<span class="dot" onclick="currentSlide(5)"></span>		
+					</div>	 
+				</td>
+				<td class="tdtext"><div class="texttitlu">Electric Castle</div>
+					<div class="textexpl">The most beloved annual music event in Romania, Electric Castle is a unique and genuine 5 days festival experience that happens every year at the Bánffy Castle domain in Bonțida - a tiny historic village near Cluj Napoca in Transylvania.</div>
+			  	    <div class="divhref"><a href="https://electriccastle.ro/">Electric Castle Official</a></div>
+				</td>
+		</tr>
+				<tr>
+				<td>
+					<div class="slideshow-container">
+
+						<div class="mySlides fade">
+							<img src="pics/fest3.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides fade">
+							<img src="pics/fest31.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides fade">
+							<img src="pics/fests32.jpg" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+							<img src="pics/fests33.jpg" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+							<img src="pics/fests34.jpg" style="width:100%">
+						</div>
+					
+
+					</div>
+					<br>
+
+					<div style="text-align:center">
+						<span class="dot" onclick="currentSlide(1)"></span> 
+						<span class="dot" onclick="currentSlide(2)"></span> 
+						<span class="dot" onclick="currentSlide(3)"></span>
+						<span class="dot" onclick="currentSlide(4)"></span>
+						<span class="dot" onclick="currentSlide(5)"></span>		
+					</div>	 
+				</td>
+				<td class="tdtext"><div class="texttitlu">Neversea</div>
+					<div class="textexpl">Neversea is a electronic and EDM music festival on Constanta beach in Romania. Curated by the same team behind the legendary Untold, festival-goers can expect the same superstar lineup and high-end production associated with the Cluj-Napoca festival. </div>
+					<div class="divhref"><a href="https://neversea.com/">Neversea Official</div>
+				</td>
+		</tr>
+	</table>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+	<footer class ="footer">Design by Michell 07.2019</footer>
+
+
+</body>
+</html>

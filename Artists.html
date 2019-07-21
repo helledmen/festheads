@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Artists</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Simonetta:900i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+	<style>
+		body {background-image: url("pics/background.jpg");
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		}
+		ul {
+			position: -webkit-sticky; /* Chrome */
+			position: fixed;
+			top:0;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: rgba(255,255,255,0);
+			font-family:"Simonetta";
+			font-size:30px;
+			font-style:normal;
+		}
+
+		li {
+			float: left;
+			border-right:1px solid white;
+		}
+
+		li:last-child {
+		   border-right: none;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		li a:hover:not(.active) {
+			background-color: #800020;
+		}
+		.active {
+			background-color: #800020;
+		}
+		.footer {
+		position: -webkit-sticky; /* Chrome*/
+		position: fixed;
+		bottom: 0;
+		background-color:rgba(255,255,255,0);
+		color: #d9d9d9;
+		text-align: left;
+		text-decoration:overline;
+		font-size:15px;
+		font-family:"Tangerine";	
+		bottom:0px;
+		}	
+		h1 {font-family:"Simonetta";
+			color:#e6a61e;
+			font-size: 60px;
+			padding: 40px;
+			margin: auto;
+			text-align: center;
+			padding:50px;
+		}	
+		table {max-width:200%;
+
+		}	
+		td {border-color::#e6a61e;
+			border:3px solid #e6a61e;
+			border-radius:10px;
+			padding:5px;
+			background-color:rgb(255,255,255,0.5);
+			
+		}	
+		.texttitlu {font-family:"Simonetta";
+			font-size:25px;
+			color:white;
+			text-align:top;
+			text-decoration:underline;
+		}
+		.textexpl {font-family:"Simonetta";
+			font-size:20px;
+			color:#800020;
+			text-align:justify;
+			word-wrap: break-word;
+		}
+		.divhref {font-family:"Simonetta";
+			font-size:20px;
+			color:#e6a61e;
+			text-decoration:none;
+		}	
+		.divhead {font-family:"Simonetta";
+			font-size:20px;
+			color:white;
+			text-decoration:overline;
+		}	
+		img {height: 150px;
+		width: 150px}
+	</style>
+</head>
+<body>
+	<ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Fests.html">Fests</a></li>
+        <li><a class="active" href="Artists.html">Artists</a></li>
+        <li><a href="Locations.html">Locations</a></li>
+		<li><a href="Contact.html">Tickets</a></li>
+		
+    </ul>
+	<h1>Some Of Our Favorites</h1>
+	<table>
+		<tr>
+				<td><img src="pics/art1.jpg"></td>
+				<td class="tdtext"><div class="texttitlu">Evano</div>
+					 <div class="textexpl">Not much is known about the artist. He was born in Slovenia and currently living in Germany. His bio just tells us a simple "Drifting between styles...", the rest is up to you to find out.</div>
+					 <div class="divhead">Waha Deep Stage Headliner</div>
+					 <div class="divhref"><a href="https://www.residentadvisor.net/dj/evano">Evano Official</div>
+				</td>
+		</tr>
+				<tr>
+				<td><img src="pics/art2.jpg"></td>
+				<td class="tdtext"><div class="texttitlu">Skrillex</div>
+					<div class="textexpl">Sonny John Moore (born January 15, 1988), known professionally as Skrillex, is an American record producer, DJ, musician, singer and songwriter.</div>
+					<div class="divhead">Electric Castle Headliner</div>
+					<div class="divhref"><a href="https://skrillex.com/pages/home">Skrillex Official</div>
+				</td>
+		</tr>
+				<tr>
+				<td><img src="pics/art3.jpg"></td>
+				<td class="tdtext"><div class="texttitlu">Fatboy Slim</div>
+					<div class="textexpl">Norman Cook born on 31'st of July 1963,[2] known by his stage name Fatboy Slim, is an English DJ, musician, and record producer who helped to popularise the big beat genre in the 1990s. In the 1980s, Cook was the bassist for the Hull-based indie rock band the Housemartins, who achieved a UK number-one single with their a cappella cover of "Caravan of Love".</div>
+					<div class="divhead">Neversea Headliner</div>
+					<div class="divhref"><a href="https://www.fatboyslim.net/">Fatboy Slim Official</div>
+				</td>
+		</tr>
+	</table>
+	<footer class ="footer">Design by Michell 07.2019</footer>
+
+
+</body>
+</html>
